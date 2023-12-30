@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./navListItem.css";
 export default function NavListItem({nav}) {
   return (
     <div>

@@ -1,6 +1,10 @@
 import React from 'react'
+import "./header.css";
 import NavListItem from '../components/NavListItem'
 import navListData from '../data/navListData'
+import Search from '../components/Search';
+import "../components/search.css";
+
 function Header() {
   return (
    <header>
@@ -12,6 +16,7 @@ function Header() {
             ))
         }
     </ul>
+    <Search/>
    </header>
   )
 }
